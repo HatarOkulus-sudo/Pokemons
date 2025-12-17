@@ -1,6 +1,6 @@
 package Moves;
 
-import lab2.Programm;
+import Chance.Chance;
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;
@@ -16,7 +16,7 @@ public final class IronHead extends PhysicalMove {
     protected void applyOppEffects(Pokemon p){
         super.applyOppEffects(p);
 
-        if (Programm.chance(0.3)){
+        if (Chance.chance(0.3)){
             Effect.flinch(p);
         }
     }

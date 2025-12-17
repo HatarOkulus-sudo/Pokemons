@@ -13,12 +13,12 @@ public final class Programm {
 
     public static void main(String[] args){
         Battle b = new Battle();
-        Aerodactyl aerodactyl = new Aerodactyl("coconut", 1);
-        Zorua zorua = new Zorua("pie", 1);
-        Zoroak zoroak = new Zoroak("apple", 1);
-        Seedot seedot = new Seedot("banana", 1);
-        Nuzleaf nuzleaf = new Nuzleaf("orange", 1);
-        Shiftry shiftry = new Shiftry("cucumber", 1);
+        Aerodactyl aerodactyl = new Aerodactyl("coconut", 76);
+        Zorua zorua = new Zorua("pie", 68);
+        Zoroak zoroak = new Zoroak("apple", 92);
+        Seedot seedot = new Seedot("banana", 54);
+        Nuzleaf nuzleaf = new Nuzleaf("orange", 62);
+        Shiftry shiftry = new Shiftry("cucumber", 85);
         b.addAlly(aerodactyl);
         b.addAlly(nuzleaf);
         b.addAlly(zorua);

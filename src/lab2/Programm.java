@@ -28,7 +28,4 @@ public final class Programm {
         b.go();
 
     }
-    public static boolean chance(double d){
-        return d > Math.random();
-    }
 }

@@ -3,6 +3,10 @@ package Moves;
 import ru.ifmo.se.pokemon.*;
 
 
+/**
+ * Приём Swagger (Хвастовство) — статусная атака типа Нормальный.
+ * Повышает атаку пользователя на две ступени и вводит противника в замешательство.
+ */
 public final class Swagger extends StatusMove {
     public Swagger (double pow, double acc){
         super(Type.NORMAL, pow, acc);

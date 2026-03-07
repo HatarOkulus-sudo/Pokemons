@@ -5,6 +5,10 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
+/**
+ * Приём Facade (Фасад) — физическая атака типа Нормальный.
+ * Наносит двойной урон противнику, если тот заражён, отравлен или парализован.
+ */
 public final class Facade extends PhysicalMove {
     public Facade (double pow, double acc){
         super(Type.NORMAL, acc, pow);

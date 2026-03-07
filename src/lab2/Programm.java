@@ -3,6 +3,11 @@ package lab2;
 import Pokemons.*;
 import ru.ifmo.se.pokemon.Battle;
 
+/**
+ * Главный класс программы, запускающий покемон-бой.
+ * Создаёт двух участников сражения: команду союзников (Aerodactyl, Nuzleaf, Zorua)
+ * и команду противников (Shiftry, Seedot, Zoroak), после чего запускает бой.
+ */
 public final class Programm {
 
     //https://pokemondb.net/pokedex/aerodactyl\

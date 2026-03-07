@@ -4,6 +4,11 @@ import Moves.*;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
+/**
+ * Покемон Zorua — покемон типа Тёмный.
+ * Базовые характеристики: HP 40, Атака 65, Защита 40, Сп. Атака 80, Сп. Защита 40, Скорость 65.
+ * Приёмы: Calm Mind, Double Team, Fury Swipes.
+ */
 public class Zorua extends Pokemon {
     public Zorua(String name, int level){
         super(name,level);

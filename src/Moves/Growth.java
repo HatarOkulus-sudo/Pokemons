@@ -7,6 +7,10 @@ import ru.ifmo.se.pokemon.Type;
 
 import java.awt.*;
 
+/**
+ * Приём Growth (Рост) — статусная атака типа Нормальный.
+ * Повышает атаку и специальную атаку пользователя на одну ступень каждую.
+ */
 public final class Growth extends StatusMove {
     public Growth (double pow, double acc){
         super(Type.NORMAL, pow, acc);

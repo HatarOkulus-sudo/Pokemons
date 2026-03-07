@@ -2,6 +2,10 @@ package Moves;
 
 import ru.ifmo.se.pokemon.*;
 
+/**
+ * Приём Confide (Признание) — статусная атака типа Нормальный.
+ * Снижает специальную атаку противника на одну ступень.
+ */
 public final class Confide extends StatusMove {
     public Confide (double pow, double acc) {
         super(Type.NORMAL, pow, acc);

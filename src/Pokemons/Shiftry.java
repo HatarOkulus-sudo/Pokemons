@@ -3,6 +3,11 @@ package Pokemons;
 import Moves.*;
 import ru.ifmo.se.pokemon.Type;
 
+/**
+ * Покемон Shiftry — покемон типов Трава и Тёмный, финальная эволюция Seedot.
+ * Базовые характеристики: HP 90, Атака 100, Защита 60, Сп. Атака 90, Сп. Защита 60, Скорость 80.
+ * Дополнительный приём: Swords Dance.
+ */
 public final class Shiftry extends Nuzleaf{
     public Shiftry(String name, int level){
         super(name, level);

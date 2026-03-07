@@ -5,6 +5,11 @@ import Moves.*;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
+/**
+ * Покемон Seedot — покемон типа Трава.
+ * Базовые характеристики: HP 40, Атака 40, Защита 50, Сп. Атака 30, Сп. Защита 30, Скорость 30.
+ * Приёмы: Swagger, Facade.
+ */
 public class Seedot extends Pokemon {
     public Seedot(String name, int level){
         super(name, level);
